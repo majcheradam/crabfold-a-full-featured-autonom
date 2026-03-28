@@ -1,0 +1,14 @@
+{
+  // Gateway channel configuration
+  // Run: openclaw channels login --channel <name> to link each channel
+  channels: {
+    whatsapp: {
+      enabled: true,
+      dmPolicy: "pairing",
+    },
+    slack: {
+      enabled: true,
+      dmPolicy: "pairing",
+    }
+  },
+}

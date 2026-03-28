@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "openclaw": "latest"
+  },
+  "name": "crabfold-agent",
+  "private": true,
+  "scripts": {
+    "start": "openclaw gateway --allow-unconfigured --port ${PORT:-3000}"
+  }
+}

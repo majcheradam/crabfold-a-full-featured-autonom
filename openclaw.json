@@ -1,0 +1,28 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-2.5-flash"
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "google": {
+        "mode": "api_key",
+        "provider": "google"
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true
+    },
+    "slack": {
+      "enabled": true
+    }
+  },
+  "gateway": {
+    "mode": "local"
+  }
+}
